@@ -1,0 +1,126 @@
+Timer:
+  message-30s: "§7[§eValorantMC§7] - §aLancement de la partie dans §e30s"
+  message-15s: "§7[§eValorantMC§7] - §aLancement de la partie dans §e15s"
+  message-5s: "§7[§eValorantMC§7] - §aLancement de la partie dans §e5s"
+  message-start: "§7[§eValorantMC§7] - §aLancement de la partie !"
+Join:
+  join-message: "§aBienvenue sur §eValoMC §a- Quand chaque joueur est dans son équipe fait §e/start §apour lancer la partie !"
+  blue-spawn:
+    x: 716
+    y: 65
+    z: 1396
+    yaw: 0
+    pitch: 1
+  red-spawn:
+    x: 825
+    y: 65
+    z: 1330
+    yaw: 90
+    pitch: 1
+Start:
+  need-players: "§7[§eValorantMC§7] - §aPas assez de joueurs pour lancer la partie"
+Team:
+  join-message-red: "§7[§eValorantMC§7] - §aVous avez rejoins la team §cRed"
+  join-message-blue: "§7[§eValorantMC§7] - §aVous avez rejoins la team §9Blue"
+  death-message-red: "§7[§eValorantMC§7] - §aLe joueur §e{player} §ade l'équipe §cRouge §aest mort"
+  death-message-blue: "§7[§eValorantMC§7] - §aLe joueur §e{player} §ade l'equipe §9Bleue §aest mort"
+  blue-win: "§7[§eValorantMC§7] - §aLa Team §9Bleu §aa §egagnée §ala partie !"
+  red-win : "§7[§eValorantMC§7] - §aLa Team §cRed §aa §egagnée §ala partie !"
+Blue:
+  door:
+    1:
+      x: 720
+      y: 64
+      z: 1399
+    2:
+      x: 720
+      y: 66
+      z: 1400
+Red:
+  door:
+    1:
+      x: 822
+      y: 64
+      z: 1334
+    2:
+      x: 821
+      y: 66
+      z: 1334
+Shop:
+  name: "§7Shop - Valorant"
+  vandal:
+    material: "WOOD_PICKAXE"
+    name: "§8Vandal"
+    glow: true
+    damage-hider: true
+  stinger:
+    material: "WOOD_HOE"
+    name: "§8Stinger"
+    glow: true
+    damage-hider: true
+  shotgun:
+    material: "WOOD_SPADE"
+    name: "§8Shotgun"
+    glow: true
+    damage-hider: true
+  complete-block:
+    material: "STAINED_GLASS_PANE"
+    data: 0
+    name: " "
+Agents:
+  name: "§7Agents - Valorant"
+  Jett:
+    name: "§bJett"
+    owner: "Jett"
+    knife:
+      material: "WOOD_SWORD"
+      name: "§8Knife"
+      glow: true
+    smoke:
+      material: "MAGMA_CREAM"
+      name: "§bSmoke"
+      lore:
+        - "§b>> §fJett lance un projectile qui crée un nuage de fumée"
+        - "§b>> §fUtilisations §b2§f/§b2"
+    updraft:
+      material: "BLAZE_ROD"
+      name: "§bUpdraft"
+      lore:
+        - "§b>> §fJett se propulse rapidement vers le haut"
+        - "§b>> §fUtilisations §b1§f/§b1"
+    dash:
+      material: "GHAST_TEAR"
+      name: "§bDash"
+      lore:
+        - "§b>> §fJett se déplace rapidement dans la direction choisie"
+        - "§b>> §fUtilisations §b1§f/§b1"
+  Omen:
+    name: "§5Omen"
+    owner: "OmenPlayer"
+    head:
+      name: "§5Omen"
+      material: "SKULL"
+      data: 3
+      owner: "efiini"
+    knife:
+      material: "WOOD_SWORD"
+      name: "§8Knife"
+      glow: true
+    smoke:
+      material: "PAPER"
+      name: "§5Smoke"
+      lore:
+        - "§5>> §fOmen lance un projectile qui crée un nuage de fumée"
+        - "§5>> §fUtilisations §52§f/§52"
+    flash:
+      material: "BOOK"
+      name: "§5Flash"
+      lore:
+        - "§5>> §fOmen aveugle son adversaire pendant 3s"
+        - "§5>> §fUtilisations §51§f/§51"
+    teleport:
+      material: "BONE"
+      name: "§5Teleportation"
+      lore:
+        - "§5>> §fOmen se téléporte a l'endroit visé"
+        - "§5>> §fUtilisations §52§f/§52"

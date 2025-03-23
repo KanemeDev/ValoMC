@@ -1,0 +1,13 @@
+name: Valorant
+author: Kaneme
+version: 1.0
+main: fr.kaneme.valorant.Main
+commands:
+  shop:
+    permission: shop.use
+  agents:
+    permission: agents.use
+  start:
+    permission: start.use
+  join:
+    permission: join.use

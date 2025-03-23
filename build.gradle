@@ -1,0 +1,38 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java'
+}
+
+group = 'fr.kaneme.valorant'
+version = '1.0-DEV'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.imanity.dev/imanity-libraries/' }
+    maven { url "https://maven.enginehub.org/repo/" }
+    maven { url 'https://jitpack.io' }
+    maven { url 'https://repo.extendedclip.com/content/repositories/placeholderapi/' }
+    maven { url "https://repo.dmulloy2.net/repository/public/" }
+    maven { url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/" }
+    maven { url "https://oss.sonatype.org/content/groups/public/" }
+    maven { url 'https://ci.ender.zone/plugin/repository/everything/' }
+    maven { url 'https://repo.codemc.io/service/rest/repository/browse/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.imanity.paperspigot:paper1.8.8:1.8.8'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+artifacts {
+    archives shadowJar
+}
